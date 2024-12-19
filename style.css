@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1 {
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    gap: 1em;
+    height: 13em;
+}
+
+.container div:nth-child(1) {
+    background-color: #ffcc00;
+}
+
+.container div:nth-child(2) {
+    background-color: #66ccff;
+}
+
+.container div:nth-child(3) {
+    background-color: #ff6666;
+}
+
+.disclaimer {
+    background-color: #98fe98;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
